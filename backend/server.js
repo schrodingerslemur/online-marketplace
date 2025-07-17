@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.json()); // allows to accept JSON in body (req.body) // type of middleware 
 
-app.use("/api/products", productRoutes);
+app.use("/api/products", productRoutes); // 1 for each route
 
 app.listen(5000, () => {
     connectDB();
