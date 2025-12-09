@@ -1,43 +1,36 @@
-# Online Marketplace – Web App
+# Online Marketplace – MERN Web App
 
-This project is a simple **online marketplace web application**, built with modern JavaScript tooling. It uses **Node.js + npm** for dependency management.
+This project is a simple **online marketplace web application** built with the **MERN stack**:
+- **MongoDB** for the database  
+- **Express.js** for the backend API  
+- **React** for the frontend UI  
+- **Node.js** for the runtime environment  
 
 ## Features
-- Basic product listing & browsing
-- Simple marketplace UI
-- Uses npm for building and running the app
-- Local development server for testing
+- Product listing & browsing
+- React-based marketplace UI
+- Express REST API
+- MongoDB data storage
+- Separate frontend/ and backend/ development environments
 
 ## Getting Started
 
-### 1. Install dependencies
-Run this inside the project folder:
+### Install dependencies
+
+From the project root, run:
+
 ```bash
+# Backend
+cd backend
+npm install
+
+# Frontend
+cd ../frontend
 npm install
 ```
 
-### 2. Start the development server
-Run one of the following (check your `package.json` "scripts" section to confirm):
-
+### Usage
 ```bash
-npm start
-```
-
-or
-
-```bash
+cd backend
 npm run dev
 ```
-
-### 3. View in browser
-After starting the dev server, open:
-```
-http://localhost:3000
-```
-(or whatever port the server prints in the console)
-
-## Project Structure
-- `package.json` — project metadata and npm scripts  
-- `package-lock.json` — exact dependency versions  
-- `src/` — main application code  
-- `public/` — static assets  
